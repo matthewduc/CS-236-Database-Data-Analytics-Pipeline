@@ -11,7 +11,7 @@
 
 select * from Publication where Publication.title like '%Symposium on Theory of Computing%' or Publication.title like '%STOC %' limit 20;
 /*
- pubid  |              pubkey               |                                                           title                                                           | year 
+ pubid  |              pubkey               |                                                           title                                                           | year  
 ---------+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------+------
  3646057 | journals/siamcomp/Babai06         | Special Issue Dedicated To The Thirty-Sixth Annual ACM Symposium On Theory Of Computing (STOC 2004).                      | 2006
  3739118 | conf/stoc/2001                    | Proceedings on 33rd Annual ACM Symposium on Theory of Computing, July 6-8, 2001, Heraklion, Crete, Greece                 | 2001
