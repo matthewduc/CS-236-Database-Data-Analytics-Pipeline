@@ -8,6 +8,7 @@
 `
 -- Find insitutions that have published the most papers in STOC
 -- Finding STOC Papers
+
 select * from Publication where Publication.title like '%Symposium on Theory of Computing%' or Publication.title like '%STOC %' limit 20;
 /*
  pubid  |              pubkey               |                                                           title                                                           | year 
